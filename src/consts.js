@@ -15,6 +15,8 @@ export const images = {
     "https://res.cloudinary.com/depifliz3/image/upload/v1709718697/ATEP-CONSULTING/PORTFOLIO/smartmockups_ltfmd1yh_gese91.jpg",
   logo_odeene:
     "https://res.cloudinary.com/depifliz3/image/upload/v1709811925/ATEP-CONSULTING/PORTFOLIO/odeene-color-vertical-5-300x300_hlafcx.png",
+  pablo_image:
+    "https://res.cloudinary.com/depifliz3/image/upload/v1712914577/ATEP-CONSULTING/PORTFOLIO/1694771804366_w8ppmw.jpg",
 };
 
 export const links = {

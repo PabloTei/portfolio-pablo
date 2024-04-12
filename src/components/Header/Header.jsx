@@ -19,10 +19,7 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <a href="#">
-          <img
-            src="https://res.cloudinary.com/depifliz3/image/upload/v1712914577/ATEP-CONSULTING/PORTFOLIO/1694771804366_w8ppmw.jpg"
-            alt="dev-photo"
-          ></img>
+          <img src={images.pablo_image} alt="dev-photo"></img>
           <h1>PABLO TEIJEIRO</h1>
         </a>
       </div>
