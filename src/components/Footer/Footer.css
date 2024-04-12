@@ -9,7 +9,6 @@ footer {
   max-height: auto;
   width: 100%;
   gap: 1em;
-  padding: 4em;
 }
 
 .footer {
@@ -17,6 +16,7 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   width: 80%;
+  max-width: 1200px;
   border-bottom: 1px solid var(--text-color-primary);
   padding-bottom: 5em;
 }
@@ -72,7 +72,6 @@ footer {
     align-items: center;
     gap: 3em;
     text-align: center;
-    width: 100%;
     padding-bottom: 3em;
   }
 

@@ -9,33 +9,35 @@ const Home = () => {
   return (
     <>
       <section className="hero">
-        <h1>¡Hola, soy Pablo!</h1>
-        <ul>
-          <li>
-            <a href={links.linkedin} target="_blank">
-              <img src={images.linkedin} alt="logo-linkedin" />
-            </a>
-          </li>
-          <li>
-            <a href={links.github} target="_blank">
-              <img src={images.github} alt="logo-github" />
-            </a>
-          </li>
-          <li>
-            <a href="mailto:pteijeirolopez@gmail.com" target="_blank">
-              <img src={images.email} alt="logo-email" />
-            </a>
-          </li>
-        </ul>
-        <p>
-          Como Desarrollador Web orientado a resultados, me especializo en la
-          construcción y gestión de sitios web y aplicaciones que impulsan el
-          éxito del producto en su totalidad
-        </p>
-        <a className="button" href="path_to_file" download="CV_PabloTeijeiro">
-          DESCARGAR CV <img src={images.download} alt="img-download" />
-        </a>
-        <Spinner />
+        <div className="section">
+          <h1>¡Hola, soy Pablo!</h1>
+          <ul>
+            <li>
+              <a href={links.linkedin} target="_blank">
+                <img src={images.linkedin} alt="logo-linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href={links.github} target="_blank">
+                <img src={images.github} alt="logo-github" />
+              </a>
+            </li>
+            <li>
+              <a href="mailto:pteijeirolopez@gmail.com" target="_blank">
+                <img src={images.email} alt="logo-email" />
+              </a>
+            </li>
+          </ul>
+          <p>
+            Como Desarrollador Web orientado a resultados, me especializo en la
+            construcción y gestión de sitios web y aplicaciones que impulsan el
+            éxito del producto en su totalidad
+          </p>
+          <a className="button" href="path_to_file" download="CV_PabloTeijeiro">
+            DESCARGAR CV <img src={images.download} alt="img-download" />
+          </a>
+          <Spinner />
+        </div>
       </section>
       <section className="experience" id={navBarElements[1]}>
         <div className="section">
@@ -57,26 +59,26 @@ const Home = () => {
             Here you will find some of the personal and clients projects that I
             created with each project containing its own case study
           </p>
-        </div>
-        <div className="all-projects">
-          {projects.map((project) => (
-            <figure key={project.id} className="project">
-              <div className="project-image">
-                <img
-                  src={project.image}
-                  alt={`img-project-#${project.title}`}
-                  loading="lazy"
-                />
-              </div>
-              <div className="project-description">
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <a href="#" className="button">
-                  VER MAS
-                </a>
-              </div>
-            </figure>
-          ))}
+          <div className="all-projects">
+            {projects.map((project) => (
+              <figure key={project.id} className="project">
+                <div className="project-image">
+                  <img
+                    src={project.image}
+                    alt={`img-project-#${project.title}`}
+                    loading="lazy"
+                  />
+                </div>
+                <div className="project-description">
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <a href="#" className="button">
+                    VER MAS
+                  </a>
+                </div>
+              </figure>
+            ))}
+          </div>
         </div>
       </section>
       <section id={navBarElements[3]} className="about">
@@ -88,48 +90,50 @@ const Home = () => {
             habilidades actuales, principalmente en términos de programación y
             tecnología
           </p>
-        </div>
-        <div className="about-me">
-          <div className="know">
-            <h3>¡Conóceme!</h3>
-            <div className="paragraph">
-              <p>
-                ¡Hola! Soy un apasionado desarrollador web, especializado en el
-                FrontEnd, centrado en crear y gestionar la parte visual y
-                funcional de sitios web y aplicaciones. Mi objetivo es
-                contribuir al éxito general del producto mediante la creación de
-                experiencias web excepcionales.
-              </p>
+
+          <div className="about-me">
+            <div className="know">
+              <h3>¡Conóceme!</h3>
+              <div className="paragraph">
+                <p>
+                  ¡Hola! Soy un apasionado desarrollador web, especializado en
+                  el FrontEnd, centrado en crear y gestionar la parte visual y
+                  funcional de sitios web y aplicaciones. Mi objetivo es
+                  contribuir al éxito general del producto mediante la creación
+                  de experiencias web excepcionales.
+                </p>
+              </div>
+              <div className="paragraph">
+                <p>
+                  En mi sección de Proyectos podrás encontrar ejemplos de mi
+                  trabajo. Me encanta compartir mi conocimiento en desarrollo
+                  web y programación con la comunidad, así que te invito a
+                  conectarte conmigo en LinkedIn y GitHub.
+                </p>
+              </div>
+              <div className="paragraph">
+                <p>
+                  Estoy abierto anuevas oportunidades donde pueda seguir
+                  aprendiendo y creciendo. Si tienes una oportunidad que se
+                  alinea con mis habilidades y experiencia, ¡me encantaría saber
+                  de ti!
+                </p>
+              </div>
+              <a className="button" href="#contacto">
+                CONTACTO
+              </a>
             </div>
-            <div className="paragraph">
-              <p>
-                En mi sección de Proyectos podrás encontrar ejemplos de mi
-                trabajo. Me encanta compartir mi conocimiento en desarrollo web
-                y programación con la comunidad, así que te invito a conectarte
-                conmigo en LinkedIn y GitHub.
-              </p>
+            <div className="my-skills">
+              <h3>Mi stack</h3>
+              <ul>
+                {skills.map((skill) => (
+                  <li key={skill.title}>
+                    <img src={skill.icon} alt={skill.icon} />
+                    <p>{skill.title}</p>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <div className="paragraph">
-              <p>
-                Estoy abierto anuevas oportunidades donde pueda seguir
-                aprendiendo y creciendo. Si tienes una oportunidad que se alinea
-                con mis habilidades y experiencia, ¡me encantaría saber de ti!
-              </p>
-            </div>
-            <a className="button" href="#contacto">
-              CONTACTO
-            </a>
-          </div>
-          <div className="my-skills">
-            <h3>Mi stack</h3>
-            <ul>
-              {skills.map((skill) => (
-                <li key={skill.title}>
-                  <img src={skill.icon} alt={skill.icon} />
-                  <p>{skill.title}</p>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </section>
@@ -141,8 +145,8 @@ const Home = () => {
             No dudes en contactarme completando el formulario a continuación y
             me pondré en contacto contigo lo antes posible
           </p>
+          <ContactForm />
         </div>
-        <ContactForm />
       </section>
     </>
   );

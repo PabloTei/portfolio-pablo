@@ -16,33 +16,35 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
-      <div className="logo">
-        <a href="#">
-          <img src={images.pablo_image} alt="dev-photo"></img>
-          <h1>PABLO TEIJEIRO</h1>
-        </a>
+    <header>
+      <div className="header">
+        <div className="logo">
+          <a href="#">
+            <img src={images.pablo_image} alt="dev-photo"></img>
+            <h1>PABLO TEIJEIRO</h1>
+          </a>
+        </div>
+        <nav className={isMobileMenuOpen ? "mobile-menu" : "office-menu"}>
+          <ul>
+            {navBarElements.map((element) => (
+              <li key={element}>
+                <a
+                  onClick={() => handleNavItemClick(element)}
+                  href={element === "inicio" ? "#" : `#${element}`}
+                >
+                  {element.toUpperCase()}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <button className="mobile-menu-button" onClick={toggleMobileMenu}>
+          <img
+            src={isMobileMenuOpen ? images.close : images.menuNavBar}
+            alt={isMobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
+          />
+        </button>
       </div>
-      <nav className={isMobileMenuOpen ? "mobile-menu" : "office-menu"}>
-        <ul>
-          {navBarElements.map((element) => (
-            <li key={element}>
-              <a
-                onClick={() => handleNavItemClick(element)}
-                href={element === "inicio" ? "#" : `#${element}`}
-              >
-                {element.toUpperCase()}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <button className="mobile-menu-button" onClick={toggleMobileMenu}>
-        <img
-          src={isMobileMenuOpen ? images.close : images.menuNavBar}
-          alt={isMobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
-        />
-      </button>
     </header>
   );
 };

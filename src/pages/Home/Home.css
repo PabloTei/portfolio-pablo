@@ -86,7 +86,7 @@ main section {
   justify-content: center;
   align-items: center;
   gap: 2em;
-  max-width: 800px;
+  max-width: 1200px;
   width: 80%;
 }
 
@@ -136,9 +136,6 @@ main section {
   flex-wrap: wrap;
   gap: 1em;
   min-width: 100%;
-  /* background: var(--special-color);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 5px; */
 }
 
 .my-skills ul li {
@@ -173,6 +170,8 @@ main section {
 
 .all-projects {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 6em;
   width: 80%;
@@ -193,6 +192,7 @@ main section {
 .project-image img {
   width: 100%;
   min-width: 280px;
+  max-width: 280px;
   display: block;
   object-fit: cover;
 }
