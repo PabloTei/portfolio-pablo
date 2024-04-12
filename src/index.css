@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #e7e7e7;
+  --tertiary-color: #0069d9;
+  --special-color: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(https://www.rammaheshwari.com/assets/svg/common-bg.svg);
+  --quaternary-color: #000;
+  --five-color: #fafafa;
+  --text-color-primary: #333;
+  --text-color-secondary: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}

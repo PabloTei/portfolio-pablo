@@ -1,0 +1,142 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--five-color);
+  color: var(--text-color-primary);
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem 4rem;
+  font-size: 14px;
+  position: relative;
+  position: sticky;
+  top: 0;
+}
+
+.office-menu ul {
+  display: flex;
+  gap: 3em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  gap: 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--secondary-color);
+}
+
+.logo p {
+  font-size: 18px;
+}
+
+.office-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+
+.office-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.office-menu a {
+  text-decoration: none;
+  color: var(--text-color-primary);
+  font-size: 16px;
+  transition: all ease-in-out 0.3s;
+  border-bottom: 2px solid var(--five-color);
+  padding: 5px;
+}
+
+.office-menu a:hover {
+  color: var(--tertiary-color);
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  left: 0;
+  background-color: var(--five-color);
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+.mobile-menu-button {
+  display: none;
+  cursor: default;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.mobile-menu-button img {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  filter: invert(0.2);
+}
+
+@media only screen and (max-width: 999px) {
+  .header {
+    padding: 1em 2em;
+  }
+
+  .office-menu {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .mobile-menu {
+    top: 88px;
+    position: absolute;
+    font-size: 18px;
+    padding: 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid var(--secondary-color);
+  }
+
+  .mobile-menu ul li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.2em;
+    width: 100%;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+
+  .header .menu.mobile-menu {
+    display: flex;
+  }
+}

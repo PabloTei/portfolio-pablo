@@ -1,0 +1,221 @@
+main p {
+  color: var(--text-color-primary);
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+  padding: 10em 0;
+}
+
+.hero {
+  background: var(--special-color);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: var(--quaternary-color);
+  font-weight: 800;
+}
+
+.hero p {
+  max-width: 50%;
+}
+
+.hero ul {
+  display: flex;
+  gap: 2em;
+}
+
+.hero ul li a img {
+  height: 50px;
+  transition: all ease-in-out 0.3s;
+}
+
+.hero ul li a img:hover {
+  filter: invert(0.5);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 1em 3em;
+  border-radius: 5px;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  transition: all ease-in-out 0.3s;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.button img {
+  height: 20px;
+  filter: invert(1);
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.experience {
+  background-color: var(--secondary-color);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  background-color: var(--secondary-color);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  max-width: 800px;
+  width: 80%;
+}
+
+.line-bottom {
+  border: 3px solid var(--tertiary-color);
+  border-radius: 100px;
+  width: 40px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 6em;
+  width: 80%;
+}
+
+.know {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.paragraph {
+  margin-bottom: 10px;
+}
+
+.paragraph p {
+  text-align: left;
+}
+
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+}
+
+.my-skills ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  min-width: 100%;
+  /* background: var(--special-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px; */
+}
+
+.my-skills ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+  width: 8em;
+  border-radius: 5px;
+}
+
+.my-skills ul li p {
+  font-size: 15px;
+  font-style: oblique;
+}
+
+.my-skills ul li img {
+  height: 60px;
+}
+
+.contact {
+  gap: 6em;
+  background: var(--special-color);
+}
+
+.projects {
+  gap: 6em;
+  background-color: var(--primary-color);
+}
+
+.all-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6em;
+  width: 80%;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
+.project-image {
+  flex: 1;
+}
+
+.project-image img {
+  width: 100%;
+  min-width: 280px;
+  display: block;
+  object-fit: cover;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  gap: 1.5em;
+  min-width: 50%;
+}
+
+.project-description p {
+  text-align: left;
+}
+
+@media only screen and (max-width: 999px) {
+  .project-description {
+    align-items: center;
+  }
+  .project-description p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,84 @@
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+  background: var(--special-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 2em;
+  padding: 1.2em;
+  background-color: var(--tertiary-color);
+  color: var(--five-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.accordion-header h3 {
+  font-weight: lighter;
+}
+
+.accordion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+}
+
+.accordion-content-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  gap: 2em;
+  padding: 1em;
+}
+
+.accordion-content-description img {
+  height: 10em;
+}
+
+.accordion-content-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  width: 100%;
+}
+
+.icons-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+}
+
+.accordion-content-skills-skill {
+  padding: 5px 15px;
+}
+
+.accordion-content-skills-skill img {
+  height: 50px;
+}
+
+@media only screen and (max-width: 999px) {
+  .accordion-content-description {
+    flex-direction: column;
+    text-align: center;
+  }
+}
