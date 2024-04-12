@@ -15,7 +15,8 @@
 .accordion-header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+  text-align: start;
   gap: 2em;
   padding: 1.2em;
   background-color: var(--tertiary-color);
@@ -24,7 +25,18 @@
   border-radius: 5px;
 }
 
-.accordion-header h3 {
+.accordion-header-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-header span img {
+  height: 30px;
+  filter: invert(1);
+}
+
+.accordion-header h3,
+h4 {
   font-weight: lighter;
 }
 

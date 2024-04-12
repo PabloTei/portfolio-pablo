@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { experiences } from "../../consts";
+import { experiences, images } from "../../consts";
 import "./Accordion.css";
 
 const ExpAccordionItem = ({
@@ -19,8 +19,17 @@ const ExpAccordionItem = ({
   return (
     <div className="accordion-item">
       <div className="accordion-header" onClick={toggleAccordion}>
-        <h3>{`${title} - ${company} (${date})`}</h3>
-        <span>{isOpen ? "-" : "+"}</span>
+        <div className="accordio-header-title">
+          <h3>{`${title}`}</h3>
+          <h4>{`${company} (${date})`}</h4>
+        </div>
+        <span>
+          {isOpen ? (
+            <img src={images.minus} alt="minus-sign" />
+          ) : (
+            <img src={images.plus} alt="minus-sign" />
+          )}
+        </span>
       </div>
       {isOpen && (
         <div className="accordion-content">
