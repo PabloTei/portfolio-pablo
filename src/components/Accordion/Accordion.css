@@ -9,7 +9,7 @@
 .accordion-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
 }
 
 .accordion-header {

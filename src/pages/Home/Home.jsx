@@ -90,7 +90,6 @@ const Home = () => {
             habilidades actuales, principalmente en términos de programación y
             tecnología
           </p>
-
           <div className="about-me">
             <div className="know">
               <h3>¡Conóceme!</h3>

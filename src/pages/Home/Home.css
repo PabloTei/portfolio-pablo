@@ -101,8 +101,7 @@ main section {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 6em;
-  width: 80%;
+  gap: 4em;
 }
 
 .know {
@@ -110,14 +109,6 @@ main section {
   flex-direction: column;
   align-items: center;
   gap: 2em;
-}
-
-.paragraph {
-  margin-bottom: 10px;
-}
-
-.paragraph p {
-  text-align: left;
 }
 
 .my-skills {
@@ -131,11 +122,10 @@ main section {
 
 .my-skills ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1em;
-  min-width: 100%;
+  gap: 2em;
 }
 
 .my-skills ul li {
@@ -145,8 +135,6 @@ main section {
   justify-content: center;
   padding: 1em;
   gap: 1em;
-  width: 8em;
-  border-radius: 5px;
 }
 
 .my-skills ul li p {
@@ -155,7 +143,7 @@ main section {
 }
 
 .my-skills ul li img {
-  height: 60px;
+  height: 80px;
 }
 
 .contact {
