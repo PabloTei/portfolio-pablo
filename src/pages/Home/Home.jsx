@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <section className="hero">
         <div className="section">
-          <h1>¡Hola, soy Pablo!</h1>
+          <h1>¡Hola, soy Pablo 👨‍💻!</h1>
           <ul>
             <li>
               <a href={links.linkedin} target="_blank">

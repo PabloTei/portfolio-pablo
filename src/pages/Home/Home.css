@@ -27,10 +27,6 @@ main section {
   font-weight: 800;
 }
 
-.hero p {
-  max-width: 600px;
-}
-
 .hero ul {
   display: flex;
   gap: 2em;
