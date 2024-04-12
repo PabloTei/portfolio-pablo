@@ -9,6 +9,7 @@ footer {
   max-height: auto;
   width: 100%;
   gap: 1em;
+  padding-bottom: 3em 0em;
 }
 
 .footer {
@@ -18,7 +19,7 @@ footer {
   width: 80%;
   max-width: 1200px;
   border-bottom: 1px solid var(--text-color-primary);
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 
 .dev-data {
@@ -64,7 +65,7 @@ footer {
   filter: invert(0.5);
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 1100px) {
   .footer {
     display: flex;
     flex-direction: column;
