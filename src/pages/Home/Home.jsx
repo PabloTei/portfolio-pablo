@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <section className="hero">
-        <h1>HEY, I'M PABLO TEIJEIRO</h1>
+        <h1>¡Hola, soy Pablo!</h1>
         <ul>
           <li>
             <a href={links.linkedin} target="_blank">
@@ -28,8 +28,9 @@ const Home = () => {
           </li>
         </ul>
         <p>
-          A Result-Oriented Web Developer building and managing Websites and Web
-          Applications that leads to the success of the overall product
+          Como Desarrollador Web orientado a resultados, me especializo en la
+          construcción y gestión de sitios web y aplicaciones que impulsan el
+          éxito del producto en su totalidad
         </p>
         <a className="button" href="path_to_file" download="CV_PabloTeijeiro">
           DESCARGAR CV <img src={images.download} alt="img-download" />
@@ -41,8 +42,9 @@ const Home = () => {
           <h2>EXPERIENCIA PROFESIONAL</h2>
           <span className="line-bottom"></span>
           <p>
-            Here you will find some of the personal and clients projects that I
-            created with each project containing its own case study
+            Explora mi experiencia profesional y descubre algunos de los
+            proyectos que he desarrollado para clientes, cada uno con su propio
+            análisis detallado
           </p>
           <Accordion />
         </div>
@@ -82,8 +84,9 @@ const Home = () => {
           <h2>SOBRE MI</h2>
           <span className="line-bottom"></span>
           <p>
-            Here you will find more information about me, what I do, and my
-            current skills mostly in terms of programming and technology
+            Aquí encontrarás más información sobre mí, lo que hago y mis
+            habilidades actuales, principalmente en términos de programación y
+            tecnología
           </p>
         </div>
         <div className="about-me">
@@ -91,26 +94,26 @@ const Home = () => {
             <h3>¡Conóceme!</h3>
             <div className="paragraph">
               <p>
-                I'm a Frontend Focused Web Developer building and managing the
-                Front-end of Websites and Web Applications that leads to the
-                success of the overall product. Check out some of my work in the
-                Projects section.
+                ¡Hola! Soy un apasionado desarrollador web, especializado en el
+                FrontEnd, centrado en crear y gestionar la parte visual y
+                funcional de sitios web y aplicaciones. Mi objetivo es
+                contribuir al éxito general del producto mediante la creación de
+                experiencias web excepcionales.
               </p>
             </div>
             <div className="paragraph">
               <p>
-                I also like sharing content related to the stuff that I have
-                learned over the years in Web Development so it can help other
-                people of the Dev Community. Feel free to Connect or Follow me
-                on my Linkedin and Instagram where I post useful content related
-                to Web Development and Programming.
+                En mi sección de Proyectos podrás encontrar ejemplos de mi
+                trabajo. Me encanta compartir mi conocimiento en desarrollo web
+                y programación con la comunidad, así que te invito a conectarte
+                conmigo en LinkedIn y GitHub.
               </p>
             </div>
             <div className="paragraph">
               <p>
-                I'm open to Job opportunities where I can contribute, learn, and
-                grow. If you have a good opportunity that matches my skills and
-                experience then don't hesitate to contact me.
+                Estoy abierto anuevas oportunidades donde pueda seguir
+                aprendiendo y creciendo. Si tienes una oportunidad que se alinea
+                con mis habilidades y experiencia, ¡me encantaría saber de ti!
               </p>
             </div>
             <a className="button" href="#contacto">
@@ -135,8 +138,8 @@ const Home = () => {
           <h2>CONTACTO</h2>
           <span className="line-bottom"></span>
           <p>
-            Feel free to Contact me by submitting the form below and I will get
-            back to you as soon as possible
+            No dudes en contactarme completando el formulario a continuación y
+            me pondré en contacto contigo lo antes posible
           </p>
         </div>
         <ContactForm />
