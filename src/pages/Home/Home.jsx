@@ -100,7 +100,15 @@ const Home = () => {
                   En mi sección de Proyectos podrás encontrar ejemplos de mi
                   trabajo. Me encanta compartir mi conocimiento en desarrollo
                   web y programación con la comunidad, así que te invito a
-                  conectarte conmigo en LinkedIn y GitHub.
+                  conectarte conmigo en{" "}
+                  <a href={links.linkedin} target="_blank">
+                    <strong>LinkedIn</strong>
+                  </a>{" "}
+                  y{" "}
+                  <a href={links.github} target="_blank">
+                    <strong>GitHub</strong>
+                  </a>
+                  .
                 </p>
               </div>
               <div className="paragraph">
