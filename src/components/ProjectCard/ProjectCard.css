@@ -11,6 +11,7 @@
   filter: grayscale(1);
   transition: all ease-in-out 0.3s;
   background: var(--special-color);
+  border-radius: 5px;
 }
 
 .card-container:hover {
@@ -28,6 +29,7 @@
   height: 300px;
   width: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 .card-links {
