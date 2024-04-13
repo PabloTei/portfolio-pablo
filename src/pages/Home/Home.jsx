@@ -1,6 +1,7 @@
 import React, { lazy, useState } from "react";
 import { Accordion } from "../../components/Accordion/Accordion";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import Spinner from "../../components/Spinner/Spinner";
 import { links, images, navBarElements, skills, projects } from "../../consts";
 import "./Home.css";
@@ -146,6 +147,7 @@ const Home = () => {
           </p>
           <ContactForm />
         </div>
+        <ProjectCard />
       </section>
     </>
   );
