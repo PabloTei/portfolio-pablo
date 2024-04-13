@@ -107,7 +107,7 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1713022495/ATEP-CONSULTING/PORTFOLIO/atep-consulting_w78edy.png",
     title: "Atep-Consulting",
     description:
-      "Este proyecto consiste en una Aplicación de Página Múltiple (MPA) desarrollada para una consultora especializada en SAP. La MPA actúa como el principal punto de contacto entre la empresa y sus clientes, proporcionando información detallada sobre los servicios de consultoría de SAP y facilitando opciones de contacto. La interfaz está diseñada para una navegación intuitiva, ofreciendo a los visitantes una visión clara de los servicios y capacidades de la empresa en el ámbito de SAP.",
+      "Aplicación de Página Múltiple (MPA) desarrollada para una consultora especializada en SAP. La MPA actúa como el principal punto de contacto entre la empresa y sus clientes.",
     skills: [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-html-96_zs6ciw.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
@@ -136,7 +136,7 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1713023252/ATEP-CONSULTING/PORTFOLIO/NeoVet_pob4vr.png",
     title: "NeoVet",
     description:
-      "CRM para centros veterinarios donde pueden optimizar sus procesos, mejorar la comunicación con sus clientes y ofrecer un mejor cuidado para las mascotas. Desde la programación de citas hasta el seguimiento de tratamientos, nuestro sistema les permite tener un control completo y acceder a la información relevante en un solo lugar.",
+      "CRM para centros veterinarios donde pueden optimizar sus procesos, mejorar la comunicación con sus clientes y ofrecer un mejor cuidado para las mascotas.",
     skills: [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-html-96_zs6ciw.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
@@ -209,7 +209,7 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1713024808/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.13.04_op85z0.png",
     title: "Zelda BOTW",
     description:
-      "Página web desarrollada como práctica para el manejo de fetch de datos sobre el juego 'The Legend of Zelda: Breath of the Wild'. La página permite obtener y mostrar información relevante sobre el juego, como personajes, armas, y más. Es una oportunidad para explorar y familiarizarse con la obtención de datos externos y su presentación en una interfaz web.",
+      "Página web desarrollada como práctica para el manejo de fetch de datos sobre el juego 'Zelda BOTW'. La página permite obtener y mostrar información relevante sobre el juego, como personajes, armas, y más.",
     skills: [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-html-96_zs6ciw.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
@@ -244,7 +244,7 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1713025236/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.20.00_l71hhc.png",
     title: "HUB-Juegos",
     description:
-      "Este proyecto representa mi primer paso en el desarrollo web, donde creé un hub de juegos utilizando únicamente JavaScript puro para construir una Single Page Application (SPA). La aplicación ofrece a los usuarios una plataforma interactiva para explorar una variedad de juegos populares, con funciones como búsqueda, filtrado y detalles de cada juego. Es un proyecto que me permitió aplicar mis conocimientos de JavaScript para crear una experiencia de usuario fluida y dinámica, sentando las bases para mi desarrollo como desarrollador web.",
+      "Primer paso en el desarrollo web, creé un hub de juegos utilizando únicamente JavaScript puro para construir una Singla Page Application (SPA). La aplicación ofrece varios juegos populares y funciones de búsqueda y filtrado.",
     skills: [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-html-96_zs6ciw.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",

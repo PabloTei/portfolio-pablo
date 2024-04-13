@@ -34,8 +34,8 @@ const Home = () => {
             construcción y gestión de sitios web y aplicaciones que impulsan el
             éxito del producto en su totalidad
           </p>
-          <a className="button" href="path_to_file" download="CV_PabloTeijeiro">
-            DESCARGAR CV <img src={images.download} alt="img-download" />
+          <a className="button" href="#proyectos">
+            PROYECTOS
           </a>
           <Spinner />
         </div>
