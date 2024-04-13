@@ -81,6 +81,7 @@ const Home = () => {
             ))}
           </div>
         </div>
+        <ProjectCard />
       </section>
       <section id={navBarElements[3]} className="about">
         <div className="section">
@@ -147,7 +148,6 @@ const Home = () => {
           </p>
           <ContactForm />
         </div>
-        <ProjectCard />
       </section>
     </>
   );
