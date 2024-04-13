@@ -24,14 +24,11 @@
   padding: 1em;
 }
 
-.card-container img {
+.project-image {
+  border-bottom: 1px solid var(--secondary-color);
   height: auto;
   width: 100%;
   border-radius: 5px;
-}
-
-.project-image {
-  border-bottom: 1px solid var(--secondary-color);
 }
 
 .card-links {
