@@ -30,6 +30,10 @@
   border-radius: 5px;
 }
 
+.project-image {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
 .card-links {
   display: flex;
   align-items: center;

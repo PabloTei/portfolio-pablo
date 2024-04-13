@@ -231,6 +231,12 @@ export const projects = [
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017335/ATEP-CONSULTING/PORTFOLIO/github_x5nxy4.png",
       },
       {
+        name: "YouTube",
+        url: "www.youtube.com",
+        image:
+          "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
+      },
+      {
         name: "Test",
         url: "https://react-project-zelda-botw.vercel.app/",
         image:

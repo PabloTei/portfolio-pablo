@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 const ProjectCard = ({ id, image, title, description, skills, links }) => {
   return (
     <figure className="card-container">
-      <img src={image} alt={title} />
+      <img className="project-image" src={image} alt={title} />
       <div className="card-description">
         <h3>{title}</h3>
         <p>{description}</p>
