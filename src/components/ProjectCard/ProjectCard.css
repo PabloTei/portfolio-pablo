@@ -1,81 +1,40 @@
 .card-container {
-  min-width: 320px;
-  height: 300px;
-  position: relative;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.card-container::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  inset: 0;
-  background: var(--special-color);
-  transform: translate3d(0, 0, 0) scale(0.95);
-  filter: blur(20px);
-}
-
-.card {
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  overflow: hidden;
-}
-
-.card .img-content {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--special-color);
-  transition: scale 0.6s, rotate 0.6s, filter 1s;
-}
-
-.card .img-content svg {
-  width: 50px;
-  height: 50px;
-  fill: #212121;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.card .content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
-  color: #e8e8e8;
-  padding: 20px 24px;
-  line-height: 1.5;
-  border-radius: 5px;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(50px);
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  align-items: center;
+  text-align: start;
+  min-width: 320px;
+  max-width: 500px;
+  gap: 1em;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.05);
+  filter: grayscale(1);
+  transition: all ease-in-out 0.3s;
+  background: var(--special-color);
 }
 
-.card .content .heading {
-  font-size: 32px;
-  font-weight: 700;
+.card-container:hover {
+  filter: grayscale(0);
 }
 
-.card:hover .content {
-  opacity: 1;
-  transform: translateY(0);
+.card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
 }
 
-.card:hover .img-content {
-  scale: 2.5;
-  rotate: 30deg;
-  filter: blur(7px);
+.card-container img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.card:hover .img-content svg {
-  fill: transparent;
+.card-links {
+  display: flex;
+}
+
+.card-links ul {
+  display: flex;
+  gap: 1em;
 }
