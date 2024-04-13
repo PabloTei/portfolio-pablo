@@ -34,9 +34,15 @@
 
 .card-links {
   display: flex;
+  align-items: center;
 }
 
 .card-links ul {
   display: flex;
+  align-items: center;
   gap: 1em;
+}
+
+.card-links ul li img {
+  height: 40px;
 }

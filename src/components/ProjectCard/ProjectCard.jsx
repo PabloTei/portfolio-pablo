@@ -1,26 +1,37 @@
 import React from "react";
 import "./ProjectCard.css";
 
-const ProjectCard = () => {
+const ProjectCard = ({ id, image, title, description, skills, links }) => {
   return (
     <figure className="card-container">
-      <img
-        src="https://res.cloudinary.com/depifliz3/image/upload/v1709467784/ATEP-CONSULTING/PORTFOLIO/Marvel_whtcw8.jpg"
-        alt="foto-marvel"
-      />
+      <img src={image} alt={title} />
       <div className="card-description">
-        <h3>Portfolio Pablo</h3>
-        <p>
-          Dopefolio is a successful Open-Source project that I created which
-          have been featured on some of the biggest tech sites like CSS-Tricks,
-          Hostinger, etc & used by thousands of developers globally
-        </p>
+        <h3>{title}</h3>
+        <p>{description}</p>
         <div className="card-links">
           <ul>
-            <li>GH</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+            <li>
+              <p>Tecnologías: </p>
+            </li>
+            {skills.map((skill, index) => (
+              <li key={index}>
+                <img src={skill} alt={`Skill ${index}`} />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="card-links">
+          <ul>
+            <li>
+              <p>Enlaces: </p>
+            </li>
+            {links.map((link, index) => (
+              <li key={index}>
+                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                  <img src={link.image} alt={link.name} />
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

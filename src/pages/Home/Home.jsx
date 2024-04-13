@@ -62,26 +62,17 @@ const Home = () => {
           </p>
           <div className="all-projects">
             {projects.map((project) => (
-              <figure key={project.id} className="project">
-                <div className="project-image">
-                  <img
-                    src={project.image}
-                    alt={`img-project-#${project.title}`}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="project-description">
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
-                  <a href="#" className="button">
-                    VER MAS
-                  </a>
-                </div>
-              </figure>
+              <ProjectCard
+                key={project.id}
+                image={project.image}
+                title={project.title}
+                description={project.description}
+                skills={project.skills}
+                links={project.links}
+              />
             ))}
           </div>
         </div>
-        <ProjectCard />
       </section>
       <section id={navBarElements[3]} className="about">
         <div className="section">
