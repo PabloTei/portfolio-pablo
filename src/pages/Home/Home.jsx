@@ -56,8 +56,8 @@ const Home = () => {
           <h2>PROYECTOS</h2>
           <span className="line-bottom"></span>
           <p>
-            Here you will find some of the personal and clients projects that I
-            created with each project containing its own case study
+            Aquí encontrarás algunos de los proyectos personales y para clientes
+            que he creado, cada uno con su propio desarrollo
           </p>
           <div className="all-projects">
             {projects.map((project) => (
