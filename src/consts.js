@@ -77,7 +77,8 @@ export const projects = [
     id: 1,
     image: images.portfolio_project,
     title: "Portfolio Pablo Teijeiro",
-    videoUrl: "https://youtu.be/g9PVrqeNQyc",
+    videoUrl: "",
+    url: "https://portfolio-pablo-jet.vercel.app/",
     description:
       "Mi portfolio es una representación visual de mi trabajo y habilidades como desarrollador. Destaca mis proyectos más relevantes. Diseñado con atención al detalle, muestra mi pasión por la programación y mi capacidad para crear soluciones innovadoras.",
     skills: [
@@ -106,6 +107,8 @@ export const projects = [
     image:
       "https://res.cloudinary.com/depifliz3/image/upload/v1713022495/ATEP-CONSULTING/PORTFOLIO/atep-consulting_w78edy.png",
     title: "Atep-Consulting",
+    videoUrl: "",
+    url: "https://atep-consulting.vercel.app/",
     description:
       "Aplicación de Página Múltiple (MPA) desarrollada para una consultora especializada en SAP. La MPA actúa como el principal punto de contacto entre la empresa y sus clientes.",
     skills: [
@@ -131,9 +134,10 @@ export const projects = [
   },
   {
     id: 3,
-    image:
-      "https://res.cloudinary.com/depifliz3/image/upload/v1713023252/ATEP-CONSULTING/PORTFOLIO/NeoVet_pob4vr.png",
+    // image:
+    //   "https://res.cloudinary.com/depifliz3/image/upload/v1713023252/ATEP-CONSULTING/PORTFOLIO/NeoVet_pob4vr.png",
     title: "NeoVet",
+    videoUrl: "https://youtu.be/g9PVrqeNQyc",
     description:
       "CRM para centros veterinarios donde pueden optimizar sus procesos, mejorar la comunicación con sus clientes y ofrecer un mejor cuidado para las mascotas.",
     skills: [
@@ -158,19 +162,20 @@ export const projects = [
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017335/ATEP-CONSULTING/PORTFOLIO/github_x5nxy4.png",
       },
-      {
-        name: "YouTube",
-        url: "https://youtu.be/g9PVrqeNQyc",
-        image:
-          "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
-      },
+      // {
+      //   name: "YouTube",
+      //   url: "https://youtu.be/g9PVrqeNQyc",
+      //   image:
+      //     "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
+      // },
     ],
   },
   {
     id: 4,
-    image:
-      "https://res.cloudinary.com/depifliz3/image/upload/v1713024385/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.06.00_beix14.png",
+    // image:
+    //   "https://res.cloudinary.com/depifliz3/image/upload/v1713024385/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.06.00_beix14.png",
     title: "CMS Motorbikes",
+    videoUrl: "https://youtu.be/Qb_rc20cOBE",
     description:
       "CMS para empresas de venta de motos, donde pueden, entrando en su perfil, crear, leer, editar y eliminar (CRUD) sus propios anuncios, para que el público pueda visualizarlos.",
     skills: [
@@ -192,19 +197,20 @@ export const projects = [
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017335/ATEP-CONSULTING/PORTFOLIO/github_x5nxy4.png",
       },
-      {
-        name: "YouTube",
-        url: "https://youtu.be/Qb_rc20cOBE",
-        image:
-          "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
-      },
+      // {
+      //   name: "YouTube",
+      //   url: "https://youtu.be/Qb_rc20cOBE",
+      //   image:
+      //     "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
+      // },
     ],
   },
   {
     id: 5,
-    image:
-      "https://res.cloudinary.com/depifliz3/image/upload/v1713024808/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.13.04_op85z0.png",
+    // image:
+    //   "https://res.cloudinary.com/depifliz3/image/upload/v1713024808/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.13.04_op85z0.png",
     title: "Zelda BOTW",
+    videoUrl: "https://youtu.be/hYFDchJJN2w",
     description:
       "Página web desarrollada como práctica para el manejo de fetch de datos sobre el juego 'Zelda BOTW'. La página permite obtener y mostrar información relevante sobre el juego, como personajes, armas, y más.",
     skills: [
@@ -226,12 +232,12 @@ export const projects = [
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017335/ATEP-CONSULTING/PORTFOLIO/github_x5nxy4.png",
       },
-      {
-        name: "YouTube",
-        url: "https://youtu.be/hYFDchJJN2w",
-        image:
-          "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
-      },
+      // {
+      //   name: "YouTube",
+      //   url: "https://youtu.be/hYFDchJJN2w",
+      //   image:
+      //     "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
+      // },
       {
         name: "Test",
         url: "https://react-project-zelda-botw.vercel.app/",
@@ -242,9 +248,10 @@ export const projects = [
   },
   {
     id: 6,
-    image:
-      "https://res.cloudinary.com/depifliz3/image/upload/v1713025236/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.20.00_l71hhc.png",
+    // image:
+    //   "https://res.cloudinary.com/depifliz3/image/upload/v1713025236/ATEP-CONSULTING/PORTFOLIO/Captura_de_pantalla_2024-04-13_a_las_18.20.00_l71hhc.png",
     title: "HUB-Juegos",
+    videoUrl: "https://youtu.be/oxQn1sdrtp4",
     description:
       "Primer paso en el desarrollo web, creé un hub de juegos utilizando únicamente JavaScript puro para construir una Singla Page Application (SPA). La aplicación ofrece varios juegos populares y funciones de búsqueda y filtrado.",
     skills: [
@@ -265,12 +272,12 @@ export const projects = [
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017335/ATEP-CONSULTING/PORTFOLIO/github_x5nxy4.png",
       },
-      {
-        name: "YouTube",
-        url: "https://youtu.be/oxQn1sdrtp4",
-        image:
-          "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
-      },
+      // {
+      //   name: "YouTube",
+      //   url: "https://youtu.be/oxQn1sdrtp4",
+      //   image:
+      //     "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
+      // },
       {
         name: "Test",
         url: "https://neoland-hub-juegos-2-0-jbbcm3pv4-pablotei.vercel.app/",

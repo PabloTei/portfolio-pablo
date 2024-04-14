@@ -10,11 +10,18 @@ const ProjectCard = ({
   skills,
   links,
   videoUrl,
+  url,
 }) => {
   return (
     <figure className="card-container">
       {/* <img className="project-image" src={image} alt={title} /> */}
-      <ReactPlayer url={videoUrl} width="100%" muted="true" controls loop />
+      {image ? (
+        <a href={url} target="a_blank">
+          <img className="project-image" src={image} alt={title} />
+        </a>
+      ) : (
+        <ReactPlayer url={videoUrl} width="100%" controls loop />
+      )}
       <div className="card-description">
         <h3>{title}</h3>
         <p>{description}</p>
