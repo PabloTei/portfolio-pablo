@@ -1,10 +1,20 @@
 import React from "react";
 import "./ProjectCard.css";
+import ReactPlayer from "react-player/lazy";
 
-const ProjectCard = ({ id, image, title, description, skills, links }) => {
+const ProjectCard = ({
+  id,
+  image,
+  title,
+  description,
+  skills,
+  links,
+  videoUrl,
+}) => {
   return (
     <figure className="card-container">
-      <img className="project-image" src={image} alt={title} />
+      {/* <img className="project-image" src={image} alt={title} /> */}
+      <ReactPlayer url={videoUrl} width="100%" muted="true" controls loop />
       <div className="card-description">
         <h3>{title}</h3>
         <p>{description}</p>

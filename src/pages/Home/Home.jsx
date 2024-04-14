@@ -69,6 +69,7 @@ const Home = () => {
                 description={project.description}
                 skills={project.skills}
                 links={project.links}
+                videoUrl={project.videoUrl}
               />
             ))}
           </div>

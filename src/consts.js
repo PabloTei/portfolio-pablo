@@ -77,6 +77,7 @@ export const projects = [
     id: 1,
     image: images.portfolio_project,
     title: "Portfolio Pablo Teijeiro",
+    videoUrl: "https://youtu.be/g9PVrqeNQyc",
     description:
       "Mi portfolio es una representación visual de mi trabajo y habilidades como desarrollador. Destaca mis proyectos más relevantes. Diseñado con atención al detalle, muestra mi pasión por la programación y mi capacidad para crear soluciones innovadoras.",
     skills: [
