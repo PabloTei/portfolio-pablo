@@ -30,6 +30,7 @@ const ContactForm = () => {
           placeholder="Introduce tu nombre"
           value={formData.name}
           onChange={handleChange}
+          required
         />
       </label>
       <label>
@@ -42,6 +43,7 @@ const ContactForm = () => {
           placeholder="Introduce tu email"
           value={formData.email}
           onChange={handleChange}
+          required
         />
       </label>
       <label>
@@ -52,6 +54,7 @@ const ContactForm = () => {
           placeholder="Introduce tu mensaje"
           value={formData.message}
           onChange={handleChange}
+          required
         ></textarea>
       </label>
       <button className="button" type="submit">
