@@ -84,7 +84,6 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-javascript-96_qrqyss.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634839/ATEP-CONSULTING/PORTFOLIO/icons8-react-100_wgnwwz.png",
-      "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-git-96_rlyowu.png",
     ],
     links: [
       {
@@ -113,7 +112,6 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-javascript-96_qrqyss.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634839/ATEP-CONSULTING/PORTFOLIO/icons8-react-100_wgnwwz.png",
-      "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-git-96_rlyowu.png",
     ],
     links: [
       {
@@ -145,7 +143,6 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-nodejs-96_w70qbv.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1713023784/ATEP-CONSULTING/PORTFOLIO/express-js_u5o7jg.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1713023493/ATEP-CONSULTING/PORTFOLIO/1_doAg1_fMQKWFoub-6gwUiQ_bnucy9.png",
-      "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-git-96_rlyowu.png",
     ],
     links: [
       {
@@ -180,7 +177,6 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-javascript-96_qrqyss.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634839/ATEP-CONSULTING/PORTFOLIO/icons8-react-100_wgnwwz.png",
-      "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-git-96_rlyowu.png",
     ],
     links: [
       {
@@ -197,7 +193,7 @@ export const projects = [
       },
       {
         name: "YouTube",
-        url: "www.youtube.com",
+        url: "https://youtu.be/Qb_rc20cOBE",
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
       },
@@ -215,7 +211,6 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-javascript-96_qrqyss.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634839/ATEP-CONSULTING/PORTFOLIO/icons8-react-100_wgnwwz.png",
-      "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-git-96_rlyowu.png",
     ],
     links: [
       {
@@ -232,7 +227,7 @@ export const projects = [
       },
       {
         name: "YouTube",
-        url: "www.youtube.com",
+        url: "https://youtu.be/hYFDchJJN2w",
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
       },
@@ -255,7 +250,6 @@ export const projects = [
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-html-96_zs6ciw.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
       "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-javascript-96_qrqyss.png",
-      "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-git-96_rlyowu.png",
     ],
     links: [
       {
@@ -272,7 +266,7 @@ export const projects = [
       },
       {
         name: "YouTube",
-        url: "www.youtube.com",
+        url: "https://youtu.be/oxQn1sdrtp4",
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
       },
