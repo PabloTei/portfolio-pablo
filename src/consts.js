@@ -162,7 +162,7 @@ export const projects = [
       },
       {
         name: "YouTube",
-        url: "www.youtube.com",
+        url: "https://youtu.be/g9PVrqeNQyc",
         image:
           "https://res.cloudinary.com/depifliz3/image/upload/v1713017338/ATEP-CONSULTING/PORTFOLIO/youtube_vnoxdf.png",
       },
