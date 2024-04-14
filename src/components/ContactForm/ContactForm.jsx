@@ -12,11 +12,29 @@ const ContactForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    const endpoint = "https://formspree.io/f/xeqypdeb";
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+    if (response.ok) {
+      alert("Formulario enviado con éxito");
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } else {
+      alert(
+        "Error al enviar el formulario. Por favor, inténtalo de nuevo más tarde."
+      );
+    }
   };
-
-  console.log(formData);
 
   return (
     <form className="form" onSubmit={handleSubmit}>
