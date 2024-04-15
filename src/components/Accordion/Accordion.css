@@ -28,6 +28,7 @@
 .accordion-header-title {
   display: flex;
   flex-direction: column;
+  gap: 0.5em;
 }
 
 .accordion-header span img {

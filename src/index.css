@@ -27,3 +27,25 @@
 html {
   scroll-behavior: smooth;
 }
+
+main {
+  -webkit-animation: fade-in 2s ease-in-out both;
+  animation: fade-in 2s ease-in-out both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

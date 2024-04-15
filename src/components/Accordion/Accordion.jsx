@@ -19,7 +19,7 @@ const ExpAccordionItem = ({
   return (
     <div className="accordion-item">
       <div className="accordion-header" onClick={toggleAccordion}>
-        <div className="accordio-header-title">
+        <div className="accordion-header-title">
           <h3>{`${title}`}</h3>
           <h4>{`${company} (${date})`}</h4>
         </div>
