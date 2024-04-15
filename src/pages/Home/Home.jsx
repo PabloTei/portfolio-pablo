@@ -1,4 +1,4 @@
-import React, { lazy, useState } from "react";
+import React from "react";
 import { Accordion } from "../../components/Accordion/Accordion";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -46,8 +46,8 @@ const Home = () => {
           <span className="line-bottom"></span>
           <p>
             Explora mi experiencia profesional y descubre algunos de los
-            proyectos que he desarrollado para clientes, cada uno con su propio
-            análisis detallado
+            proyectos en los que he trabajado, cada uno con su propio análisis
+            detallado
           </p>
           <Accordion />
         </div>
@@ -57,8 +57,8 @@ const Home = () => {
           <h2>PROYECTOS</h2>
           <span className="line-bottom"></span>
           <p>
-            Aquí encontrarás algunos de los proyectos personales y para clientes
-            que he creado, cada uno con su propio desarrollo
+            Aquí encontrarás los proyectos personales en los que he trabajado,
+            cada uno con su propio desarrollo
           </p>
           <div className="all-projects">
             {projects.map((project) => (
@@ -83,7 +83,7 @@ const Home = () => {
           <p>
             Aquí encontrarás más información sobre mí, lo que hago y mis
             habilidades actuales, principalmente en términos de programación y
-            tecnología
+            tecnologías
           </p>
           <div className="about-me">
             <div className="know">
@@ -91,7 +91,7 @@ const Home = () => {
               <div className="paragraph">
                 <p>
                   ¡Hola! Soy un apasionado desarrollador web, especializado en
-                  el FrontEnd, centrado en crear y gestionar la parte visual y
+                  el Front-end, centrado en crear y gestionar la parte visual y
                   funcional de sitios web y aplicaciones. Mi objetivo es
                   contribuir al éxito general del producto mediante la creación
                   de experiencias web excepcionales.
@@ -99,7 +99,7 @@ const Home = () => {
               </div>
               <div className="paragraph">
                 <p>
-                  En mi sección de Proyectos podrás encontrar ejemplos de mi
+                  En mi sección de proyectos podrás encontrar ejemplos de mi
                   trabajo. Me encanta compartir mi conocimiento en desarrollo
                   web y programación con la comunidad, así que te invito a
                   conectarte conmigo en{" "}
@@ -115,10 +115,10 @@ const Home = () => {
               </div>
               <div className="paragraph">
                 <p>
-                  Estoy abierto anuevas oportunidades donde pueda seguir
+                  Estoy abierto a nuevas oportunidades donde pueda seguir
                   aprendiendo y creciendo. Si tienes una oportunidad que se
-                  alinea con mis habilidades y experiencia, ¡me encantaría saber
-                  de ti!
+                  alinea con mis habilidades y experiencia, ¡me encantaría
+                  conocerla!
                 </p>
               </div>
               <a className="button" href="#contacto">

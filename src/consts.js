@@ -296,7 +296,7 @@ export const experiences = [
     company: "Odeene Ingenieria",
     date: "Junio 2023 - Presente",
     description:
-      "Desarrollo Frontend en Angular para una institución bancaria, abarcando tanto plataformas web como móviles, aplicando una metodología SCRUM y priorizando una filosofía de diseño responsivo.",
+      "Desarrollo Front-end en Angular para una institución bancaria, abarcando tanto plataformas web como móviles, aplicando una metodología SCRUM y priorizando una filosofía de diseño responsivo.",
     logo: images.logo_odeene,
     skills: [
       "HTML",
