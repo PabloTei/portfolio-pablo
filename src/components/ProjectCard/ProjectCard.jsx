@@ -25,7 +25,7 @@ const ProjectCard = ({
       <div className="card-description">
         <h3>{title}</h3>
         <p>{description}</p>
-        <div className="card-links">
+        <div className="card-skills">
           <ul>
             <li>
               <p>Tecnologías: </p>

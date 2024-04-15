@@ -19,12 +19,20 @@ main section {
 }
 
 .hero h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   color: var(--quaternary-color);
   font-weight: 800;
+}
+
+.hero div h1 img {
+  height: 100px;
 }
 
 .hero ul {
@@ -139,7 +147,7 @@ main section {
 }
 
 .my-skills ul li img {
-  height: 80px;
+  height: 60px;
 }
 
 .contact {

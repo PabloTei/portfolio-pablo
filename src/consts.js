@@ -22,6 +22,8 @@ export const images = {
   plus: "https://res.cloudinary.com/depifliz3/image/upload/v1712925039/ATEP-CONSULTING/PORTFOLIO/mas_mdgeio.png",
   portfolio_project:
     "https://res.cloudinary.com/depifliz3/image/upload/v1713017817/ATEP-CONSULTING/PORTFOLIO/Portfolio_d3kwjm.png",
+  hero_image:
+    "https://res.cloudinary.com/depifliz3/image/upload/v1713172544/ATEP-CONSULTING/PORTFOLIO/desarrollo-web_acxs4h.png",
 };
 
 export const links = {
