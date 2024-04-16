@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { experiences, images } from "../../consts";
+import antiquity from "../../services";
 import "./Accordion.css";
 
 const ExpAccordionItem = ({
@@ -9,6 +10,7 @@ const ExpAccordionItem = ({
   description,
   logo,
   skills1,
+  startDate,
 }) => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -21,7 +23,7 @@ const ExpAccordionItem = ({
       <div className="accordion-header" onClick={toggleAccordion}>
         <div className="accordion-header-title">
           <h3>{`${title}`}</h3>
-          <h4>{`${company} (${date})`}</h4>
+          <h4>{`${company} (${date}) - ${antiquity(startDate)}`}</h4>
         </div>
         <span>
           {isOpen ? (
