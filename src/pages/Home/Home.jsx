@@ -30,9 +30,10 @@ const Home = () => {
             </li>
           </ul>
           <p>
-            Como Desarrollador Web orientado a resultados, me especializo en la
-            construcción y gestión de sitios web y aplicaciones que impulsan el
-            éxito del producto en su totalidad
+            Apasionado por el Desarrollo Web y la resolución de problemas.
+            Mentalidad enfocada en la atención al detalle y el trabajo en
+            equipo. Abierto a nuevas oportunidades para colaborar en proyectos
+            desafiantes y generar soluciones innovadoras.
           </p>
           <a className="button" href="#proyectos">
             PROYECTOS
