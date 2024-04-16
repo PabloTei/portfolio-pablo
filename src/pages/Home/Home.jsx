@@ -30,10 +30,10 @@ const Home = () => {
             </li>
           </ul>
           <p>
-            Apasionado por el Desarrollo Web y la resolución de problemas.
-            Mentalidad enfocada en la atención al detalle y el trabajo en
-            equipo. Abierto a nuevas oportunidades para colaborar en proyectos
-            desafiantes y generar soluciones innovadoras.
+            Apasionado por el <strong>Desarrollo Web</strong> y la resolución de
+            problemas. Mentalidad enfocada en la atención al detalle y el
+            trabajo en equipo. Abierto a nuevas oportunidades para colaborar en
+            proyectos desafiantes y generar soluciones innovadoras.
           </p>
           <a className="button" href="#proyectos">
             PROYECTOS
