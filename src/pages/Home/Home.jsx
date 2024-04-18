@@ -130,9 +130,12 @@ const Home = () => {
               <h3>Mi stack</h3>
               <ul>
                 {skills.map((skill) => (
-                  <li key={skill.title}>
-                    <img src={skill.icon} alt={skill.icon} />
-                    <p>{skill.title}</p>
+                  <li key={skill.title} className="skill-item">
+                    <div className="icon-container">
+                      <img src={skill.icon} alt={skill.icon} />
+                      <span className="popup">{skill.title}</span>
+                      <p>{skill.title}</p>
+                    </div>
                   </li>
                 ))}
               </ul>

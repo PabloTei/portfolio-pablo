@@ -138,7 +138,38 @@ main section {
   align-items: center;
   justify-content: center;
   padding: 1em;
-  gap: 1em;
+}
+.skill-item {
+  list-style: none;
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.skill-icon {
+  width: 50px;
+  height: auto;
+}
+
+.popup {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background-color: var(--text-color-primary);
+  color: var(--five-color);
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon-container:hover .popup {
+  opacity: 1;
 }
 
 .my-skills ul li p {
