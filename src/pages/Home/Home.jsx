@@ -111,7 +111,6 @@ const Home = () => {
                   <a href={links.github} target="_blank">
                     <strong>GitHub</strong>
                   </a>
-                  .
                 </p>
               </div>
               <div className="paragraph">
@@ -134,7 +133,6 @@ const Home = () => {
                     <div className="icon-container">
                       <img src={skill.icon} alt={skill.icon} />
                       <span className="popup">{skill.title}</span>
-                      <p>{skill.title}</p>
                     </div>
                   </li>
                 ))}

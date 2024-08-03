@@ -1,8 +1,8 @@
-const antiquity = (startDateString) => {
+const antiquity = (startDateString, endDateString = null) => {
   const startDate = new Date(startDateString);
-  const currentDate = new Date();
+  const endDate = endDateString ? new Date(endDateString) : new Date();
 
-  const difference = currentDate - startDate;
+  const difference = endDate - startDate;
 
   const years = difference / (1000 * 60 * 60 * 24 * 365);
   const months = (years - Math.floor(years)) * 12;

@@ -24,6 +24,8 @@ export const images = {
     "https://res.cloudinary.com/depifliz3/image/upload/v1713017817/ATEP-CONSULTING/PORTFOLIO/Portfolio_d3kwjm.png",
   hero_image:
     "https://res.cloudinary.com/depifliz3/image/upload/v1713172544/ATEP-CONSULTING/PORTFOLIO/desarrollo-web_acxs4h.png",
+  xpander_logo:
+    "https://res.cloudinary.com/depifliz3/image/upload/v1722698070/ATEP-CONSULTING/PORTFOLIO/xpander_teknia_logo1_euthxj.png",
 };
 
 export const links = {
@@ -294,11 +296,56 @@ export const experiences = [
   {
     title: "Front-end Developer",
     company: "Odeene Ingenieria",
-    date: "Junio 2023 - Presente",
+    date: "Junio 2023 - Julio 2024",
     startDate: "2023-06-01",
+    endDate: "2024-07-31",
     description:
       "Desarrollo Front-end en Angular para una institución bancaria, abarcando tanto plataformas web como móviles, aplicando una metodología SCRUM y priorizando una filosofía de diseño responsivo.",
     logo: images.logo_odeene,
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Angular",
+      "Redux",
+      "Git",
+    ],
+    skills1: [
+      {
+        title: "HTML",
+        icon: "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-html-96_zs6ciw.png",
+      },
+      {
+        title: "CSS",
+        icon: "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-css3-96_t3bnf4.png",
+      },
+      {
+        title: "JavaScript",
+        icon: "https://res.cloudinary.com/depifliz3/image/upload/v1709634841/ATEP-CONSULTING/PORTFOLIO/icons8-javascript-96_qrqyss.png",
+      },
+      {
+        title: "TypeScript",
+        icon: "https://res.cloudinary.com/depifliz3/image/upload/v1709635639/ATEP-CONSULTING/PORTFOLIO/icons8-mecanografiado-96_ti6ljo.png",
+      },
+      {
+        title: "Angular",
+        icon: "https://res.cloudinary.com/depifliz3/image/upload/v1709634839/ATEP-CONSULTING/PORTFOLIO/icons8-angular-96_sgfemi.png",
+      },
+      {
+        title: "Git",
+        icon: "https://res.cloudinary.com/depifliz3/image/upload/v1709634838/ATEP-CONSULTING/PORTFOLIO/icons8-git-96_rlyowu.png",
+      },
+    ],
+  },
+  {
+    title: "Front-end Developer",
+    company: "Xpander | Powered by Teknia",
+    date: "Julio 2024 - Presente",
+    startDate: "2024-07-01",
+    description:
+      "Desarrollo Front-end de una aplicación innovadora llamada Alize, relacionada con blockchain. Utilizamos Angular para construir la interfaz de usuario desde cero, creando una experiencia visualmente atractiva y altamente funcional. Enfocado en desarrollar una aplicación intuitiva y eficiente que aproveche al máximo las capacidades de la tecnología blockchain.",
+    logo: images.xpander_logo,
     skills: [
       "HTML",
       "CSS",
